@@ -1,0 +1,21 @@
+---
+import ExperienceItem from "./ExperienceItem.astro";
+const TRABAJOS = [
+    {
+        date: "June 2022 - Present",
+        title: "Fullstack Developer",
+        desc: "programador con la paciencia de hierro",
+        link: "google.es",
+    },
+];
+---
+
+<ol class="relative mt-8">
+   {
+    TRABAJOS.map((trabajo) => (
+        <li>
+            <ExperienceItem {...trabajo} />
+        </li>
+    ))
+   }
+  </ol>
