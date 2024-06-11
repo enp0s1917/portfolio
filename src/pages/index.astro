@@ -1,12 +1,12 @@
 ---
-import SocialPill from "../components/SocialPill.astro";
-import Github from "../icons/Github.astro";
-import Linkedin from "../icons/Linkedin.astro";
-import Mail from "../icons/Mail.astro";
+
+import About from "../components/sections/About.astro";
+import Education from "../components/sections/Education.astro";
+import Experience from "../components/sections/Experience.astro";
+import Header from "../components/sections/Header.astro";
+import Skills from "../components/sections/Skills.astro";
 import Layout from "../layouts/Layout.astro";
-import Experience from "../components/Experience.astro";
-import Section from "../components/Section.astro";
-import Briefcase from "../icons/Briefcase.astro";
+
 ---
 
 <Layout
@@ -14,36 +14,10 @@ import Briefcase from "../icons/Briefcase.astro";
 	description="Fullstack developer with experience in .NET and frontend frameworks like React or Astro"
 >
 	<main>
-		<Section class="py-20 pb-22">
-			<h1
-				class="text-zinc-100 text-5xl font-bold flex mb-3 flex-row pb-10"
-			>
-				Hello! I'm Pedro
-			</h1>
-			<h2 class="text-xl text-wrap">
-				<span class="text-yellow-400">Fullstack developer</span> with 3 years
-				of experience. From Barcelona
-			</h2>
-
-			<nav class="flex gap-x-2 mt-5">
-				<SocialPill href="https://www.linkedin.com/in/pedronieto97/">
-					<Linkedin class="size-6" />Linkedin
-				</SocialPill>
-				<SocialPill href="https://www.linkedin.com/in/pedronieto97/">
-					<Github class="size-6" /> Github
-				</SocialPill>
-				<SocialPill href="https://www.linkedin.com/in/pedronieto97/">
-					<Mail class="size-6" /> Mail
-				</SocialPill>
-			</nav>
-		</Section>
-
-		<Section>
-			<h2 id="experience" class="text-3xl font-semibold flex gap-x-3 items-center">
-				<Briefcase class="size-8" /> 
-				Experience
-			</h2>
-			<Experience />
-		</Section>
+		<Header />
+		<About />
+		<Experience />
+		<Education />
+		<Skills />
 	</main>
 </Layout>

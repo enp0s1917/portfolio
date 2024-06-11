@@ -1,0 +1,102 @@
+---
+import Mail from "../../icons/Mail.astro";
+import MapPinIcon from "../../icons/MapPinIcon.astro";
+import Section from "../Section.astro";
+import { basics } from "@cv"
+
+const {name, email, label, image, location} = basics;
+const {city, region} = location;
+
+---
+
+<Section class="flex flex-row gap-4 justify-between items-center py-16 mx-auto">  
+    <div class="flex flex-col gap-2 p-16 mt-11">
+      <h1 class="text-yellow-400 text-4xl font-bold">{name}</h1>
+      <h2 class="text-gray-50">{label}</h2>
+      <span class="flex gap-1">
+        <MapPinIcon />
+        {city}, {region}
+      </span>      
+      <footer class="no-print">
+        <a
+          href={`mailto:${email}`}
+          title={`Enviar un correo electrónico a ${name} al correo ${email}`}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Mail />
+        </a>        
+      </footer>
+    </div>
+    <figure class="justify-center items-center pr-0">
+      <img
+        src="https://i.redd.it/snoovatar/avatars/nftv2_bmZ0X2VpcDE1NToxMzdfYzhkM2EzYTgzYmRlNWRhZDA2ZDQzNjY5NGUzZTIyYWMzZTY0ZDU3N181NDEyMTcy_rare_967c4741-92e8-4b3f-8a82-282b9a8ff511.png"
+        alt="me"
+        class="border-2 border-gray-200 dark:border-gray-800"
+      />
+    </figure>
+  
+</Section>
+
+<style> 
+
+  img {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    width: 128px;
+    border-radius: 16px;
+  }  
+
+  footer {
+    color: #555;
+    font-size: 0.65rem;
+    display: flex;
+    gap: 4px;
+    margin-top: 8px;
+  }
+
+  footer a {
+    color: #777;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #eee;
+    padding: 4px;
+    height: 32px;
+    width: 32px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+  }
+
+  footer a:hover {
+    background: #eee;
+    border: 1px solid #ddd;
+  }
+
+  @media (width <= 700px) {
+    .container {
+      flex-direction: column-reverse;
+    }
+
+    .info {
+      justify-content: center;
+      align-items: center;
+      padding-right: 0;
+      text-align: center;
+    }
+
+    figure {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    h2 {
+      text-wrap: balance;
+    }
+
+    figure {
+      margin: 0 auto;
+    }
+  }
+</style>
