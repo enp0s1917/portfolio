@@ -4,8 +4,8 @@ import Section from "../Section.astro";
 import { work } from "@cv";
 ---
 
-<Section class="relative mt-8">
-   <ul>
+<Section title="Experience" class="relative mt-8">
+   <ul class="flex flex-col gap-8">
       {
          work.map(
             ({
@@ -13,8 +13,7 @@ import { work } from "@cv";
                startDate,
                endDate,
                position,
-               summary,
-               highlights,
+               summary,               
                url,
             }) => {
                const startYear = new Date(startDate).getFullYear();
@@ -22,11 +21,11 @@ import { work } from "@cv";
                   endDate != null ? new Date(endDate).getFullYear() : "Actual";
 
                return (
-                  <li>
+                    <li class="my-4 border-l-2 pl-2">
                      <article>
-                        <header>
+                        <header class="flex justify-between items-start mb-1">
                            <div>
-                              <h3>
+                              <h3 class="font-bold text-xl">
                                  <a
                                     href={url}
                                     title={`Ver ${name}`}
@@ -35,7 +34,7 @@ import { work } from "@cv";
                                     {name}
                                  </a>
                               </h3>
-                              <h4>{position}</h4>
+                              <h4 class="italic">{position}</h4>
                            </div>
 
                            <div>
@@ -60,3 +59,11 @@ import { work } from "@cv";
       }
    </ul>
 </Section>
+
+<style>
+   time {
+  @apply text-[#e1e1e1] text-[0.85rem] min-w-[102px] cursor-default;
+}
+</style>
+
+

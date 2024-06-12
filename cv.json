@@ -30,25 +30,26 @@
         ]
       },
       {
-        "name": "Adevinta",
-        "position": "Lead Frontend Architect",
-        "url": "https://twitch.tv/midudev",
-        "startDate": "2016-06-01",
-        "endDate": "2022-09-01",
-        "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
-        "highlights": [
-          "Started the company"
-        ]
+        "name": "Abast",
+        "position": "Junior Microsoft Dynamics 365 Consultant",
+        "url": "",
+        "startDate": "2021-07-01",
+        "endDate": "2022-04-01",
+        "summary": "Working with Microsoft Dynamics 365, Power Platform and Power Automate. Developing customizations and integrations with C#."        
       },
       {
-        "name": "Hubii",
-        "position": "Senior FrontEnd Developer",
-        "startDate": "2011-03-01",
-        "endDate": "2016-05-01",
-        "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
-        "highlights": [
-          "Started the company"
-        ]
+        "name": "Nubéame",
+        "position": "Intern web developer",
+        "startDate": "2020-02-01",
+        "endDate": "2020-04-01",
+        "summary": "Developing web applications with Wordpress, PHP and MySQL"        
+      },
+      {
+        "name": "Seat",
+        "position": "Intern C# Developer",
+        "startDate": "2020-02-01",
+        "endDate": "2020-04-01",
+        "summary": "Developing C# applications with WPF for internal use"        
       }
     ],
     "volunteer": [{
@@ -63,110 +64,89 @@
       ]
     }],
     "education": [{
-      "institution": "Universitat Oberta de Catalunya",
-      "url": "https://www.uoc.edu/portal/es/index.html",
-      "area": "Ingeniero de Software",
-      "studyType": "Bachelor",
-      "startDate": "2003-01-01",
-      "endDate": "2009-01-01",
-      "score": "4.0",
+      "institution": "",
+      "url": "",
+      "area": "",
+      "studyType": "",
+      "startDate": "",
+      "endDate": "",
+      "score": "",
       "courses": [
-        "DB1101 - Basic SQL"
+        ""
       ]
     }],
     "awards": [{
-      "title": "Award",
-      "date": "2014-11-01",
-      "awarder": "Company",
-      "summary": "There is no spoon."
+      "title": "",
+      "date": "",
+      "awarder": "",
+      "summary": ""
     }],
     "certificates": [{
-      "name": "Certificate",
-      "date": "2021-11-07",
-      "issuer": "Company",
-      "url": "https://certificate.com"
+      "name": "",
+      "date": "",
+      "issuer": "",
+      "url": ""
     }],
     "publications": [{
-      "name": "Publication",
-      "publisher": "Company",
-      "releaseDate": "2014-10-01",
-      "url": "https://publication.com",
-      "summary": "Description…"
+      "name": "",
+      "publisher": "",
+      "releaseDate": "",
+      "url": "",
+      "summary": ""
     }],
     "skills": [
       {
         "name": "HTML",
-        "level": "Master",
+        "level": "",
         "keywords": [
           "Desarrollo Web", "Frontend"
         ]
       },
       {
         "name": "CSS",
-        "level": "Master",
+        "level": "",
         "keywords": [
           "Desarrollo Web", "Frontend", "Diseño Responsive"
         ]
       },
       {
         "name": "JavaScript",
-        "level": "Master",
+        "level": "",
         "keywords": [
           "Desarrollo Web", "Frontend", "Backend", "Fullstack"
         ]
       },
       {
         "name": "Tailwind",
-        "level": "Avanzado",
+        "level": "",
         "keywords": [
           "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
         ]
       },
       {
         "name": "TypeScript",
-        "level": "Avanzado",
+        "level": "",
         "keywords": [
           "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
         ]
-      },
-      {
-        "name": "Node",
-        "level": "Avanzado",
-        "keywords": [
-          "Desarrollo Web", "Backend", "JavaScript", "Servidor"
-        ]
-      },
+      },      
       {
         "name": "MySQL",
-        "level": "Avanzado",
+        "level": "",
         "keywords": [
           "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
         ]
       },
       {
         "name": "Git",
-        "level": "Avanzado",
+        "level": "",
         "keywords": [
           "Control de Versiones", "Colaboración", "Código Fuente"
         ]
-      },
-      {
-        "name": "GitHub",
-        "level": "Avanzado",
-        "keywords": [
-          "Control de Versiones", "Colaboración", "Código Fuente", "Git"
-        ]
-      },
-      {
-        "name": "Next.js",
-        "level": "Avanzado",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
-        ]
-      },
+      },      
       {
         "name": "React",
-        "level": "Avanzado",
+        "level": "",
         "keywords": [
           "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
         ]
@@ -175,7 +155,8 @@
     "languages": [
       {
         "language": "Spanish",
-        "fluency": "Native speaker"
+        "fluency": "Native speaker",
+        "icon": "🇪🇸"
       },
       {
         "language": "English",
@@ -188,73 +169,17 @@
         "Ferrets",
         "Unicorns"
       ]
-    }],
-    "references": [{
-      "name": "Jane Doe",
-      "reference": "Reference…"
-    }],
+    }],    
     "projects": [
       {
-        "name": "mars.codes",
+        "name": "",
         "isActive": true,
-        "description": "Historia interactiva con retos de programación para viajar a Marte",
+        "description": "",
         "highlights": [
-          "Elige tu propia aventura",
-          "En desarrollo"
+          "",
+          ""
         ],
-        "url": "https://mars.codes"
-      },
-      {
-        "name": "AdventJS",
-        "isActive": true,
-        "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
-        "highlights": [
-          "+1 millón de visitas",
-          "Multidioma",
-          "JavaScript & TypeScript"
-        ],
-        "url": "https://adventjs.dev"
-      },
-      {
-        "name": "Codember",
-        "isActive": true,
-        "description": "Juego interactivo de programación con retos y secretos",
-        "highlights": [
-          "+2000 usuarios activos",
-          "Retos para cualquier lenguaje"
-        ],
-        "url": "https://codember.dev"
-      },
-      {
-        "name": "codi.link",
-        "isActive": true,
-        "description": "Playground de código HTML, CSS y JavaScript para compartir",
-        "highlights": [
-          "100k visitas al mes",
-          "Desarrollado por la comunidad"
-        ],
-        "url": "https://codi.link",
-        "github": "https://github.com/midudev/codi.link"
-      },
-      {
-        "name": "Pruebas Técnicas",
-        "isActive": true,
-        "description": "Lista de pruebas técnicas de empresas para practicar programación",
-        "highlights": [
-          "100% gratuito",
-          "+500 soluciones de la comunidad"
-        ],
-        "url": "https://pruebastecnicas.com",
-        "github": "https://github.com/midudev/pruebas-tecnicas"
-      },
-      {
-        "name": "miduConf",
-        "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
-        "highlights": [
-          "+15k tickets repartidos",
-          "+50k espectadores en directo"
-        ],
-        "url": "https://miduconf.com"
-      }
+        "url": ""
+      }      
     ]
   }

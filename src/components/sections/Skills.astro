@@ -1,8 +1,47 @@
-<a
-    class="inline-flex items-center justify-center gap-2 px-4 py-1 text-gray-800 transition bg-gray-100 border border-gray-300 rounded-full dark:bg-gray-800 dark:border-gray-600 dark:text-white focus-visible:ring-yellow-500/80 text-md hover:bg-gray-900 hover:border-gray-700 group max-w-fit hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black"
-    href={Astro.props.href}
-    target="_blank"
-    rel="noopener noreferrer"
->
-    <slot />
-</a>
+---
+import HTML from "@/icons/html.astro";
+import Section from "../Section.astro";
+import JavaScript from "@/icons/javascript.astro";
+import CSS from "@/icons/css.astro";
+import Tailwind from "@/icons/tailwind.astro";
+import TypeScript from "@/icons/typescript.astro";
+import Git from "@/icons/git.astro";
+import MySQL from "@/icons/mysql.astro";
+import React from "@/icons/react.astro";
+
+import { skills } from "@cv";
+
+const SKILL_ICONS: Record<string, any> = {
+    HTML,
+    CSS,
+    JavaScript,
+    Tailwind,
+    TypeScript,
+    Git,
+    MySQL,
+    React
+};
+---
+
+<Section title="Skills" class="">
+    <ul class="inline-flex mt-2 gap-2 flex-wrap">
+        {
+            skills.map(({ name }) => {
+                const iconName = name === "Next.js" ? "Next" : name
+                const Icon = SKILL_ICONS[iconName];
+
+                return (
+                    <li class="text-blue-800 items-center flex text-sm font-medium me-1 px-3 py-0.5 rounded dark:bg-blue-900 dark:text-blue-100">
+                        {Icon && <Icon />} <span class="ml-1">{name}</span>
+                    </li>
+                );
+            })
+        }
+    </ul>
+</Section>
+
+<!-- skills.map((skill) => (
+                <li class="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">
+                    <span>{skill.name}</span>
+                </li>
+            )) -->
