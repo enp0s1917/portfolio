@@ -1,47 +1,32 @@
 {
     "basics": {
       "name": "Pedro Nieto Pérez",
-      "label": "Full Stack Developer with",
-      "image": "/me.webp",
-      "email": "miduga@gmail.com",
+      "label": "Full Stack Developer",
+      "image": "https://media.licdn.com/dms/image/C4D03AQGVOdt3Cf035w/profile-displayphoto-shrink_200_200/0/1566734584571?e=1723680000&v=beta&t=En1o96d3I04pvFcJjChKn_DKib9bFaL1wJA7kFjMhOs",
+      "email": "pnipe97@gmail.com",
       "phone": "",
-      "url": "https://midu.dev",
-      "summary": "+15 años de experiencia como Desarrollador Web. Actualmente soy Creador de Contenido y Divulgador sobre Programación. Vivo en Barcelona, España. He trabajado en diferentes entornos: desde acelerar el desarrollo de start-ups hasta liderando equipos de empresas multinacionales.",
+      "url": "https://www.linkedin.com/in/pedronieto97/",
+      "summary": "I'm a Full Stack Developer. Learning AstroJS and Tailwind right now. Love to learn new things and try to catch up last technologies. A llitle tired of AI in every single thing.",
       "location": {
         "address": "",
-        "postalCode": "08820",
-        "city": "el Prat de Llobregat",
+        "postalCode": "",
+        "city": "Barcelona",
         "countryCode": "ES",
         "region": "España"
       },
-      "profiles": [
-        {
-          "network": "LinkedIn",
-          "username": "midudev",
-          "url": "https://linkedin.com/in/midudev"
-        },
-        {
-          "network": "X",
-          "username": "midudev",
-          "url": "https://x.com/midudev"
-        },
-        {
-          "network": "GitHub",
-          "username": "midudev",
-          "url": "https://github.com/midudev"
-        }
+      "profiles": [        
       ]
     },
     "work": [
       {
-        "name": "midudev",
-        "position": "Divulgador sobre Programación Web",
-        "url": "https://twitch.tv/midudev",
-        "startDate": "2021-01-01",
+        "name": "Quantion",
+        "position": "Developer",
+        "url": "https://www.quantion.com/es/",
+        "startDate": "2022-06-01",
         "endDate": null,
-        "summary": "Streamer de programación más visto en Español en Twitch. +1 millón de seguidores entre todas mis redes sociales. Reconocido por Google, Microsoft y GitHub por mi impacto en la comunidad de desarrolladores.",
+        "summary": "Developing fullstack applications mostly in C# and Angular. Working with Agile methodologies and DevOps practices.",
         "highlights": [
-          "Started the company"
+          ""
         ]
       },
       {
