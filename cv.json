@@ -32,13 +32,14 @@
       {
         "name": "Abast",
         "position": "Junior Microsoft Dynamics 365 Consultant",
-        "url": "",
+        "url": "https://www.abast.es/",
         "startDate": "2021-07-01",
         "endDate": "2022-04-01",
         "summary": "Working with Microsoft Dynamics 365, Power Platform and Power Automate. Developing customizations and integrations with C#."        
       },
       {
         "name": "Nubéame",
+        "url": "https://www.nubeame.com/",
         "position": "Intern web developer",
         "startDate": "2020-02-01",
         "endDate": "2020-04-01",
@@ -47,6 +48,7 @@
       {
         "name": "Seat",
         "position": "Intern C# Developer",
+        "url": "https://www.seat.es/",
         "startDate": "2020-02-01",
         "endDate": "2020-04-01",
         "summary": "Developing C# applications with WPF for internal use"        
