@@ -1,5 +1,6 @@
 ---
 import HTML from "@/icons/html.astro";
+import NET from "@/icons/net.astro";
 import Section from "../Section.astro";
 import JavaScript from "@/icons/javascript.astro";
 import CSS from "@/icons/css.astro";
@@ -8,18 +9,21 @@ import TypeScript from "@/icons/typescript.astro";
 import Git from "@/icons/git.astro";
 import MySQL from "@/icons/mysql.astro";
 import React from "@/icons/react.astro";
+import Azure from "@/icons/azure.astro";
 
 import { skills } from "@cv";
 
 const SKILL_ICONS: Record<string, any> = {
     HTML,
+    NET,
     CSS,
     JavaScript,
     Tailwind,
     TypeScript,
     Git,
     MySQL,
-    React
+    Azure,
+    React,
 };
 ---
 
@@ -40,8 +44,3 @@ const SKILL_ICONS: Record<string, any> = {
     </ul>
 </Section>
 
-<!-- skills.map((skill) => (
-                <li class="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">
-                    <span>{skill.name}</span>
-                </li>
-            )) -->
