@@ -13,11 +13,11 @@ import { work } from "@cv";
                endDate != null ? new Date(endDate).getFullYear() : "Actual";
 
             return (
-               <li class="my-4 border-l-2 pl-2 border-[#FC4100]">
+               <li class="my-4 border-l-2 pl-2 border-pinky">
                   <article>
                      <header class="flex justify-between items-start mb-1">
                         <div>
-                           <h3 class="font-bold text-xl text-yellow-200">
+                           <h3 class="font-bold text-xl text-amarillo">
                               {position}
                            </h3>
                            <h4 class="italic">
@@ -31,7 +31,7 @@ import { work } from "@cv";
                            </h4>
                         </div>
 
-                        <div class="text-[#FC4100]">
+                        <div>
                            <time datetime={startDate} data-title={startDate}>
                               {startYear}
                            </time>
@@ -55,6 +55,6 @@ import { work } from "@cv";
 
 <style>
    time {
-      @apply text-[#FC4100] text-[0.85rem] min-w-[102px] cursor-default;
+      @apply text-amarillo text-[0.85rem] min-w-[102px] cursor-default;
    }
 </style>

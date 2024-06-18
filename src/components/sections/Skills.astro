@@ -35,7 +35,7 @@ const SKILL_ICONS: Record<string, any> = {
                 const Icon = SKILL_ICONS[iconName];
 
                 return (
-                    <li class="text-blue-800 items-center flex text-sm font-medium me-1 px-3 py-0.5 rounded dark:bg-blue-900 dark:text-blue-100">
+                    <li class="items-center border flex text-sm font-medium me-1 px-3 py-0.5 rounded">
                         {Icon && <Icon />} <span class="ml-1">{name}</span>
                     </li>
                 );
